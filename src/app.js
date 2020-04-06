@@ -1,3 +1,4 @@
+// работа с запросом и ответом в *.router.js, бизнес-логика в *.service.js, работа с хранилищем данных в *.repository.js и т.п
 const express = require('express');
 const swaggerUI = require('swagger-ui-express');
 const path = require('path');
