@@ -13,6 +13,4 @@ router.route('/:boardId').get(async (req, res) => {
   res.json(task);
 });
 
-// router.route('/').post(async (req, res) => { });
-
 module.exports = router;

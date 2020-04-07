@@ -11,8 +11,4 @@ const getByIdRep = boardId => {
   return tasks.find(task => task.id === boardId);
 };
 
-// POST
-// const createTaskRep = task => {
-// };
-
 module.exports = { getAllRep, getByIdRep };

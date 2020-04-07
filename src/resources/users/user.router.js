@@ -20,16 +20,4 @@ router.route('/').post(async (req, res) => {
   res.json(User.toResponse(newUser));
 });
 
-// router.route('/:id').put(async (req, res) => {
-//   const updateUser = await update(req.body);
-//   res.json(User.toResponse(updateUser));
-// });
-
-// router.route('/:id').delete(async (req, res) => {
-//   // const deleteUser = await deleteUser(res);
-//   // res.json(User.toResponse(deleteUser));
-//   usersService.deleteUser(req.params.id);
-//   console.log(`res ${req.params.id}`);
-// });
-
 module.exports = router;

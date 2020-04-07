@@ -20,17 +20,4 @@ const createUserRep = userData => {
   return newUser;
 };
 
-// PUT
-// const update = () => { };
-
-// DELETE
-// const deleteUser = id => {
-//   const users = getAll();
-//   const goalUser = users.filter(user => id !== user.id);
-//   return goalUser;
-//   // usersJSON.pop(goalUser);
-//   // console.log(goalUser);
-// };
-// deleteUser();
-
 module.exports = { getAllRep, getByIdRep, createUserRep };
