@@ -1,0 +1,9 @@
+[
+  {
+    "title": "TITLE BOARDS",
+    "columns": [
+      { "title": "col1", "order": "1" },
+      { "title": "col2", "order": "2" }
+    ]
+  }
+]

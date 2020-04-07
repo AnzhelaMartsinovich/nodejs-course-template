@@ -1,5 +1,11 @@
-const usersRepo = require('./boards.memory.repository');
+const {
+  getAllRep,
+  getByIdRep,
+  createBoardRep
+} = require('./boards.memory.repository');
 
-const getAll = () => usersRepo.getAll();
+const getAll = () => getAllRep();
+const getById = id => getByIdRep(id);
+const createBoard = newBoard => createBoardRep(newBoard);
 
-module.exports = { getAll };
+module.exports = { getAll, getById, createBoard };

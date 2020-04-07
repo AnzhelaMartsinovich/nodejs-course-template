@@ -2,16 +2,35 @@
 const User = require('./user.model');
 const usersJSON = require('./../../data/users.json');
 
-const usersArr = usersJSON.map(user => new User(user));
-
-const getAll = () => {
-  return usersArr;
+// GET
+const getAllRep = () => {
+  const users = usersJSON.map(user => new User(user));
+  return users;
 };
 
-const getById = () => {
-  const users = getAll();
-  const id = users.find(user => user.id);
-  return id;
+const getByIdRep = id => {
+  const users = getAllRep();
+  return users.find(user => user.id === id);
 };
 
-module.exports = { getAll, getById };
+// POST
+const createUserRep = userData => {
+  const newUser = new User(userData);
+  usersJSON.push(newUser);
+  return newUser;
+};
+
+// PUT
+// const update = () => { };
+
+// DELETE
+// const deleteUser = id => {
+//   const users = getAll();
+//   const goalUser = users.filter(user => id !== user.id);
+//   return goalUser;
+//   // usersJSON.pop(goalUser);
+//   // console.log(goalUser);
+// };
+// deleteUser();
+
+module.exports = { getAllRep, getByIdRep, createUserRep };

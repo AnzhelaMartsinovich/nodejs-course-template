@@ -1,22 +1,16 @@
 const uuid = require('uuid');
 
-class User {
-  constructor({
-    id = uuid(),
-    name = 'USER',
-    login = 'user',
-    password = 'P@55w0rd'
-  } = {}) {
+class Boards {
+  constructor({ id = uuid(), title = 'TITLE', columns = [] } = {}) {
     this.id = id;
-    this.name = name;
-    this.login = login;
-    this.password = password;
+    this.title = title;
+    this.columns = columns;
   }
 
-  static toResponse(user) {
-    const { id, name, login } = user;
-    return { id, name, login };
+  static toResponse(board) {
+    const { id, title, columns } = board;
+    return { id, title, columns };
   }
 }
 
-module.exports = User;
+module.exports = Boards;

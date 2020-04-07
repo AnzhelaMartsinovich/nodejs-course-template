@@ -1,7 +1,12 @@
 // бизнес - логика
-const usersRepo = require('./user.memory.repository');
+const {
+  getAllRep,
+  getByIdRep,
+  createUserRep
+} = require('./user.memory.repository');
 
-const getAll = () => usersRepo.getAll();
-const getById = id => usersRepo.getById(id);
+const getAll = () => getAllRep();
+const getById = id => getByIdRep(id);
+const createUser = newUser => createUserRep(newUser);
 
-module.exports = { getAll, getById };
+module.exports = { getAll, getById, createUser };
