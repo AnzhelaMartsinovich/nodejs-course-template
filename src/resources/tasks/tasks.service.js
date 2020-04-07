@@ -1,7 +1,7 @@
 const { getAllRep, getByIdRep } = require('./tasks.memory.repository');
 
-const getAll = boardId => getAllRep(boardId);
-console.log(getAll());
-const getById = id => getByIdRep(id);
+const getAll = () => getAllRep();
+const getById = boardId => getByIdRep(boardId);
+// const createTask = task => createTaskRep(task);
 
 module.exports = { getAll, getById };

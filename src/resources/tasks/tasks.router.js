@@ -1,17 +1,18 @@
 const router = require('express').Router();
-const Tasks = require('./tasks.model');
+// const Task = require('./tasks.model');
 const { getAll, getById } = require('./tasks.service');
 
-router.route('/:boardId/tasks').get(async (req, res) => {
+router.route('/').get(async (req, res) => {
   const tasks = await getAll();
-  // res.json(tasks);
-  res.json(tasks.map(Tasks.toResponse));
+  res.json(tasks);
 });
 
-router.route('/:id').get(async (req, res) => {
-  const id = req.params.id;
-  const task = await getById(id);
-  res.json(Tasks.toResponse(task));
+router.route('/:boardId').get(async (req, res) => {
+  const boardId = req.params.boardId;
+  const task = await getById(boardId);
+  res.json(task);
 });
+
+// router.route('/').post(async (req, res) => { });
 
 module.exports = router;

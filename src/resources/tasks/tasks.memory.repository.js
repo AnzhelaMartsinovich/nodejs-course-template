@@ -1,23 +1,18 @@
 const Task = require('./tasks.model');
 const tasksJSON = require('./../../data/tasks.json');
 
+const tasks = tasksJSON.map(user => new Task(user));
 // GET
-const getAllRep = boardId => {
-  const tasks = tasksJSON.map(user => new Task(user));
-  console.log(`boardId ${boardId}`);
-  return tasks.filter(task => task.boardId === boardId);
+const getAllRep = () => {
+  return tasks;
 };
 
-const getByIdRep = id => {
-  const tasks = getAllRep();
-  return tasks.find(task => task.id === id);
+const getByIdRep = boardId => {
+  return tasks.find(task => task.id === boardId);
 };
 
 // POST
-// const createUserRep = userData => {
-//   const newUser = new Task(userData);
-//   usersJSON.push(newUser);
-//   return newUser;
+// const createTaskRep = task => {
 // };
 
 module.exports = { getAllRep, getByIdRep };
