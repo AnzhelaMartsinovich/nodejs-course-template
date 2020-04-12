@@ -13,14 +13,3 @@ process
   .on('unhandledRejection', reason => {
     logger.error(`Unhandled rejection ${reason.message}`);
   });
-
-// from chat RRS
-// uncaughtException
-setTimeout(() => {
-  throw new Error('Oooops!');
-}, 1500);
-
-// unhandledRejection
-setTimeout(() => {
-  Promise.reject(new Error('Oooops!'));
-}, 1500);

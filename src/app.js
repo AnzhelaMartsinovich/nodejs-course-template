@@ -12,6 +12,16 @@ const logger = require('./loggers/logger');
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
+app.use(express.json());
+
+app.use('/', (req, res, next) => {
+  if (req.originalUrl === '/') {
+    res.send('Service is running!');
+    return;
+  }
+  next();
+});
+
 app.use('/', (req, res, next) => {
   logger.info(
     JSON.stringify({
@@ -31,17 +41,7 @@ app.use('/', (err, req, res, next) => {
   next();
 });
 
-app.use(express.json());
-
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
-
-app.use('/', (req, res, next) => {
-  if (req.originalUrl === '/') {
-    res.send('Service is running!');
-    return;
-  }
-  next();
-});
 
 app.use('/users', userRouter);
 app.use('/boards/:boardId/tasks', tasksRouter);
