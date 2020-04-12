@@ -19,12 +19,3 @@ const logger = createLogger({
 });
 
 module.exports = logger;
-
-// logger.silly('silly');
-// logger.debug('debug');
-// logger.verbose('verbose');
-// logger.info('info');
-// logger.warn('warn');
-// logger.error('error');
-
-// logger.log('info', 'info from log');
