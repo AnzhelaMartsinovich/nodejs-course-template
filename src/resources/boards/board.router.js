@@ -1,14 +1,12 @@
-// работа с запросом и ответом
 const router = require('express').Router();
-const User = require('./user.model');
 const {
   getAll,
   getById,
   create,
-  deleteById,
-  update
-} = require('./user.service');
-const { updateByUserId } = require('../tasks/task.service');
+  update,
+  deleteById
+} = require('./board.service');
+const { deleteByBoardId } = require('../tasks/task.service');
 
 router.route('/').get(async (req, res) => {
   res.json(await getAll());
@@ -16,13 +14,17 @@ router.route('/').get(async (req, res) => {
 
 router.route('/:id').get(async (req, res) => {
   const id = req.params.id;
-  res.json(await getById(id));
+  const board = await getById(id);
+  if (board) {
+    res.json(board);
+  } else {
+    res.status(404).json({ message: 'Not found' });
+  }
 });
 
 router.route('/').post(async (req, res) => {
   const body = req.body;
-  const newUser = await create(body);
-  res.json(User.toResponse(newUser));
+  res.json(await create(body));
 });
 
 router.route('/:id').put(async (req, res) => {
@@ -33,7 +35,7 @@ router.route('/:id').put(async (req, res) => {
 
 router.route('/:id').delete(async (req, res) => {
   const id = req.params.id;
-  await updateByUserId(id);
+  await deleteByBoardId(id);
   res.json(await deleteById(id));
 });
 

@@ -2,22 +2,33 @@
 const User = require('./user.model');
 const usersJSON = require('./../../data/users.json');
 
+let users = usersJSON.map(user => new User(user));
+
 // GET
-const getAllRep = () => {
-  const users = usersJSON.map(user => new User(user));
+const getAllRep = async () => {
   return users;
 };
 
-const getByIdRep = id => {
-  const users = getAllRep();
+const getByIdRep = async id => {
   return users.find(user => user.id === id);
 };
 
 // POST
-const createUserRep = userData => {
+const createRep = async userData => {
   const newUser = new User(userData);
-  usersJSON.push(newUser);
+  users.push(newUser);
   return newUser;
 };
 
-module.exports = { getAllRep, getByIdRep, createUserRep };
+// PUT
+const updateRep = async (id, userData) => {
+  const i = users.findIndex(board => board.id === id);
+  users[i] = { ...users[i], ...userData };
+};
+
+// DELETE
+const deleteRep = async id => {
+  users = users.filter(user => user.id !== id);
+};
+
+module.exports = { getAllRep, createRep, getByIdRep, updateRep, deleteRep };
