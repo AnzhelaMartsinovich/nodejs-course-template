@@ -22,16 +22,16 @@ app.use('/', (req, res, next) => {
   next();
 });
 
-app.use('/', (req, res, next) => {
-  logger.info(
-    JSON.stringify({
-      url: req.url,
-      queryParam: req.query,
-      body: req.body
-    })
-  );
-  next();
-});
+// app.use('/', (req, res, next) => {
+//   logger.info(
+//     JSON.stringify({
+//       url: req.url,
+//       queryParam: req.query,
+//       body: req.body
+//     })
+//   );
+//   next();
+// });
 
 app.use('/', (err, req, res, next) => {
   if (err) {
