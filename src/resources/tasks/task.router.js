@@ -1,41 +1,27 @@
 const router = require('express').Router({ mergeParams: true });
-const {
-  getAll,
-  create,
-  getById,
-  update,
-  deleteById
-} = require('./task.service');
+
 const Task = require('./task.model');
+const { getAll, getByIdTask, create, update } = require('./task.service');
 
 router.route('/').get(async (req, res) => {
-  res.json(await getAll());
+  const allBoards = await getAll();
+  res.json(allBoards.map(board => Task.toResponse(board)));
 });
 
 router.route('/:id').get(async (req, res) => {
   const id = req.params.id;
-  const task = await getById(id);
-  if (task) {
-    res.json(task);
-  } else {
-    res.status(404).json({ message: 'Not found' });
-  }
+  res.json(Task.toResponse(await getByIdTask(id)));
 });
 
 router.route('/').post(async (req, res) => {
-  const task = new Task({ ...req.body, boardId: req.params.boardId });
-  res.json(await create(task));
+  const body = req.body;
+  res.json(Task.toResponse(await create(body)));
 });
-
+//
 router.route('/:id').put(async (req, res) => {
   const id = req.params.id;
   const body = req.body;
-  res.json(await update(id, body));
-});
-
-router.route('/:id').delete(async (req, res) => {
-  const id = req.params.id;
-  res.json(await deleteById(id));
+  res.json(Task.toResponse(await update(id, body)));
 });
 
 module.exports = router;

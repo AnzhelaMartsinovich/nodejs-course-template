@@ -1,42 +1,26 @@
 const router = require('express').Router();
-const {
-  getAll,
-  getById,
-  create,
-  update,
-  deleteById
-} = require('./board.service');
-const { deleteByBoardId } = require('../tasks/task.service');
+const Board = require('./board.model');
+const boardService = require('./board.service');
 
 router.route('/').get(async (req, res) => {
-  res.json(await getAll());
+  const allBoards = await boardService.getAll();
+  res.json(allBoards.map(board => Board.toResponse(board)));
 });
 
 router.route('/:id').get(async (req, res) => {
   const id = req.params.id;
-  const board = await getById(id);
-  if (board) {
-    res.json(board);
-  } else {
-    res.status(404).json({ message: 'Not found' });
-  }
+  res.json(Board.toResponse(await boardService.getById(id)));
 });
 
 router.route('/').post(async (req, res) => {
   const body = req.body;
-  res.json(await create(body));
+  res.json(Board.toResponse(await boardService.create(body)));
 });
 
 router.route('/:id').put(async (req, res) => {
   const id = req.params.id;
   const body = req.body;
-  res.json(await update(id, body));
-});
-
-router.route('/:id').delete(async (req, res) => {
-  const id = req.params.id;
-  await deleteByBoardId(id);
-  res.json(await deleteById(id));
+  res.json(Board.toResponse(await boardService.update(id, body)));
 });
 
 module.exports = router;

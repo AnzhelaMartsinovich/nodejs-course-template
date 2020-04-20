@@ -8,7 +8,7 @@ const {
   update,
   deleteById
 } = require('./user.service');
-const { updateByUserId } = require('../tasks/task.service');
+const { getByIdTask } = require('../tasks/task.service');
 
 router.route('/').get(async (req, res) => {
   res.json(await getAll());
@@ -32,7 +32,7 @@ router.route('/:id').put(async (req, res) => {
 
 router.route('/:id').delete(async (req, res) => {
   const id = req.params.id;
-  await updateByUserId(id);
+  await getByIdTask(id);
   res.json(User.toResponse(await deleteById(id)));
 });
 

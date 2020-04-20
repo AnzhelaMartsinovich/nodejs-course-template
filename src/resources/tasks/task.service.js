@@ -2,26 +2,17 @@ const {
   getAllRep,
   getByIdRep,
   createRep,
-  updateRep,
-  updateByIdRep,
-  deleteByIdRep,
-  deleteByBoardIdRep
-} = require('./task.memory.repository');
+  updateRep
+} = require('./task.db.repository');
 
 const getAll = () => getAllRep();
-const getById = boardId => getByIdRep(boardId);
-const create = task => createRep(task);
-const update = (taskId, boardId, params) => updateRep(taskId, boardId, params);
-const updateByUserId = userId => updateByIdRep(userId);
-const deleteById = id => deleteByIdRep(id);
-const deleteByBoardId = boardId => deleteByBoardIdRep(boardId);
+const getByIdTask = id => getByIdRep(id);
+const create = boardData => createRep(boardData);
+const update = (id, task) => updateRep(id, task);
 
 module.exports = {
   getAll,
+  getByIdTask,
   create,
-  getById,
-  update,
-  updateByUserId,
-  deleteById,
-  deleteByBoardId
+  update
 };
