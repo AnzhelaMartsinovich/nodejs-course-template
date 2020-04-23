@@ -1,0 +1,62 @@
+{"message":"   Unhandled rejection Cannot destructure property '_id' of 'board' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property '_id' of 'board' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Board with id = 3aaf7294-cdcf-405a-bc04-63cf74ebd487 is not found","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
+{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
+{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
+{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
+{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
+{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
+{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
+{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
+{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
+{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Autotest task',\n  order: 0,\n  description: 'Lorem ipsum',\n  userId: null,\n  boardId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
+{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #2',\n  order: 2,\n  description: 'Lorem ipsum',\n  boardId: 'c97f1e0f-4e8a-4bbe-a55d-910b3b9195a5',\n  userId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
+{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #1',\n  order: 1,\n  description: 'Lorem ipsum',\n  boardId: 'c97f1e0f-4e8a-4bbe-a55d-910b3b9195a5',\n  userId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
+{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #4',\n  order: 4,\n  description: 'Lorem ipsum',\n  boardId: 'c97f1e0f-4e8a-4bbe-a55d-910b3b9195a5',\n  userId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
+{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #3',\n  order: 3,\n  description: 'Lorem ipsum',\n  boardId: 'c97f1e0f-4e8a-4bbe-a55d-910b3b9195a5',\n  userId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
+{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #5',\n  order: 5,\n  description: 'Lorem ipsum',\n  boardId: 'c97f1e0f-4e8a-4bbe-a55d-910b3b9195a5',\n  userId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
+{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #1',\n  order: 1,\n  description: 'Lorem ipsum',\n  userId: 'a398bb57-9f58-486c-ae3d-92958dd91405',\n  boardId: '96d81416-ecbb-42d6-a1d8-20f25e4d612c'\n}\" at path \"boardId\"","level":"error"}
+{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #2',\n  order: 2,\n  description: 'Lorem ipsum',\n  userId: 'a398bb57-9f58-486c-ae3d-92958dd91405',\n  boardId: '96d81416-ecbb-42d6-a1d8-20f25e4d612c'\n}\" at path \"boardId\"","level":"error"}
+{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Autotest task',\n  order: 0,\n  description: 'Lorem ipsum',\n  userId: null,\n  boardId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
+{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Autotest task',\n  order: 0,\n  description: 'Lorem ipsum',\n  userId: null,\n  boardId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection tasksService.resetUser is not a function","level":"error"}
+{"message":"   Unhandled rejection tasksService.removeByBoard is not a function","level":"error"}
+{"message":"   Unhandled rejection tasksService.removeByBoard is not a function","level":"error"}
+{"message":"   Unhandled rejection tasksService.resetUser is not a function","level":"error"}
+{"message":"   Unhandled rejection tasksService.removeByBoard is not a function","level":"error"}
+{"message":"   Unhandled rejection tasksService.resetUser is not a function","level":"error"}
+{"message":"   Unhandled rejection tasksService.removeByBoard is not a function","level":"error"}
+{"message":"   Unhandled rejection tasksService.resetUser is not a function","level":"error"}
+{"message":"   Unhandled rejection tasksService.removeByBoard is not a function","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Server Error","level":"error"}
+{"message":"   Server Error","level":"error"}
+{"message":"   Server Error","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot read property 'toResponse' of null","level":"error"}
+{"message":"   Unhandled rejection board.toResponse is not a function","level":"error"}
+{"message":"   Unhandled rejection Cannot read property 'toResponse' of null","level":"error"}

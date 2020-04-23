@@ -10,13 +10,13 @@ const getByIdRep = async id => {
 };
 
 // POST
-const createRep = async user => {
-  return User.create(user);
+const createRep = async userData => {
+  return User.create(userData);
 };
 
 // PUT
-const updateRep = async (id, user) => {
-  return User.updateOne({ _id: id }, user);
+const updateRep = async (id, userData) => {
+  return User.updateOne({ _id: id }, userData);
 };
 
 // DELETE

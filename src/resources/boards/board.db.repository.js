@@ -16,4 +16,8 @@ const updateRep = async (id, boardData) => {
   return Board.updateOne({ _id: id }, boardData);
 };
 
-module.exports = { getAllRep, getByIdRep, createRep, updateRep };
+const deleteRep = async id => {
+  return (await Board.deleteOne({ _id: id })).deletedCount;
+};
+
+module.exports = { getAllRep, getByIdRep, createRep, updateRep, deleteRep };
