@@ -1,62 +1,74 @@
-{"message":"   Unhandled rejection Cannot destructure property '_id' of 'board' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property '_id' of 'board' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Board with id = 3aaf7294-cdcf-405a-bc04-63cf74ebd487 is not found","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
-{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
-{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
-{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
-{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
-{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
-{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
-{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
-{"message":"   Unhandled rejection Cast to string failed for value \"{ boardId: undefined, _id: undefined }\" at path \"_id\" for model \"Task\"","level":"error"}
-{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Autotest task',\n  order: 0,\n  description: 'Lorem ipsum',\n  userId: null,\n  boardId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
-{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #2',\n  order: 2,\n  description: 'Lorem ipsum',\n  boardId: 'c97f1e0f-4e8a-4bbe-a55d-910b3b9195a5',\n  userId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
-{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #1',\n  order: 1,\n  description: 'Lorem ipsum',\n  boardId: 'c97f1e0f-4e8a-4bbe-a55d-910b3b9195a5',\n  userId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
-{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #4',\n  order: 4,\n  description: 'Lorem ipsum',\n  boardId: 'c97f1e0f-4e8a-4bbe-a55d-910b3b9195a5',\n  userId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
-{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #3',\n  order: 3,\n  description: 'Lorem ipsum',\n  boardId: 'c97f1e0f-4e8a-4bbe-a55d-910b3b9195a5',\n  userId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
-{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #5',\n  order: 5,\n  description: 'Lorem ipsum',\n  boardId: 'c97f1e0f-4e8a-4bbe-a55d-910b3b9195a5',\n  userId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
-{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #1',\n  order: 1,\n  description: 'Lorem ipsum',\n  userId: 'a398bb57-9f58-486c-ae3d-92958dd91405',\n  boardId: '96d81416-ecbb-42d6-a1d8-20f25e4d612c'\n}\" at path \"boardId\"","level":"error"}
-{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Task #2',\n  order: 2,\n  description: 'Lorem ipsum',\n  userId: 'a398bb57-9f58-486c-ae3d-92958dd91405',\n  boardId: '96d81416-ecbb-42d6-a1d8-20f25e4d612c'\n}\" at path \"boardId\"","level":"error"}
-{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Autotest task',\n  order: 0,\n  description: 'Lorem ipsum',\n  userId: null,\n  boardId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
-{"message":"   Unhandled rejection Task validation failed: boardId: Cast to String failed for value \"{\n  title: 'Autotest task',\n  order: 0,\n  description: 'Lorem ipsum',\n  userId: null,\n  boardId: null,\n  columnId: null\n}\" at path \"boardId\"","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection tasksService.resetUser is not a function","level":"error"}
-{"message":"   Unhandled rejection tasksService.removeByBoard is not a function","level":"error"}
-{"message":"   Unhandled rejection tasksService.removeByBoard is not a function","level":"error"}
-{"message":"   Unhandled rejection tasksService.resetUser is not a function","level":"error"}
-{"message":"   Unhandled rejection tasksService.removeByBoard is not a function","level":"error"}
-{"message":"   Unhandled rejection tasksService.resetUser is not a function","level":"error"}
-{"message":"   Unhandled rejection tasksService.removeByBoard is not a function","level":"error"}
-{"message":"   Unhandled rejection tasksService.resetUser is not a function","level":"error"}
-{"message":"   Unhandled rejection tasksService.removeByBoard is not a function","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
-{"message":"   Server Error","level":"error"}
-{"message":"   Server Error","level":"error"}
-{"message":"   Server Error","level":"error"}
-{"message":"   Unhandled rejection Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
-{"message":"   Unhandled rejection Cannot read property 'toResponse' of null","level":"error"}
-{"message":"   Unhandled rejection board.toResponse is not a function","level":"error"}
-{"message":"   Unhandled rejection Cannot read property 'toResponse' of null","level":"error"}
+{"message":"    {\"url\":\"/boards\",\"queryParam\":{},\"body\":{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}}","level":"info"}
+{"message":"    {\"url\":\"/boards\",\"queryParam\":{},\"body\":{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks\",\"queryParam\":{},\"body\":{\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}}","level":"info"}
+{"message":"    {\"url\":\"/boards\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/users\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/users\",\"queryParam\":{},\"body\":{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks/bc527449-f9cd-445c-9371-9aade45e2869\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/users/3af06b4e-5eff-4947-8f0b-52db0b075171\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards\",\"queryParam\":{},\"body\":{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks\",\"queryParam\":{},\"body\":{\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}}","level":"info"}
+{"message":"    {\"url\":\"/users/3af06b4e-5eff-4947-8f0b-52db0b075171\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b68f0a64-3330-4561-80e9-1372dbfdab3b\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks/b13b7b1b-5d36-4175-b7a0-314dc5a5bb28\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks\",\"queryParam\":{},\"body\":{\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}}","level":"info"}
+{"message":"    {\"url\":\"/users\",\"queryParam\":{},\"body\":{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}}","level":"info"}
+{"message":"    {\"url\":\"/boards\",\"queryParam\":{},\"body\":{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks/3e54bf19-e3b5-44df-9477-043027a76379\",\"queryParam\":{},\"body\":{\"id\":\"3e54bf19-e3b5-44df-9477-043027a76379\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"b112c992-6732-499a-bece-d3e5b31f9317\",\"columnId\":null}}","level":"info"}
+{"message":"    {\"url\":\"/users/4e1c96c1-c083-46cc-8bc4-54a363e611ba\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/cc61fc02-9231-4986-a2c7-02541c7fb0a2\",\"queryParam\":{},\"body\":{\"id\":\"cc61fc02-9231-4986-a2c7-02541c7fb0a2\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1,\"_id\":\"abad7535-e376-4f78-b7cd-89a0cf5f3a62\"},{\"title\":\"Sprint\",\"order\":2,\"_id\":\"0d7d2a88-2c9f-45e9-ab4a-01144bc633cd\"}]}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks/3e54bf19-e3b5-44df-9477-043027a76379\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/cc61fc02-9231-4986-a2c7-02541c7fb0a2\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks/bc527449-f9cd-445c-9371-9aade45e2869\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/users\",\"queryParam\":{},\"body\":{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}}","level":"info"}
+{"message":"    {\"url\":\"/boards/cc61fc02-9231-4986-a2c7-02541c7fb0a2\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks/bc527449-f9cd-445c-9371-9aade45e2869\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/users/b46b3dee-a839-4cb8-994a-2c66387a915c\",\"queryParam\":{},\"body\":{\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"b46b3dee-a839-4cb8-994a-2c66387a915c\"}}","level":"info"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks/bc527449-f9cd-445c-9371-9aade45e2869\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/users/b46b3dee-a839-4cb8-994a-2c66387a915c\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards\",\"queryParam\":{},\"body\":{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}}","level":"info"}
+{"message":"   status: 404\n      method: GET\n      url: /boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks/bc527449-f9cd-445c-9371-9aade45e2869\n      message: Task not found","level":"error"}
+{"message":"    {\"url\":\"/boards/b112c992-6732-499a-bece-d3e5b31f9317\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/users/b46b3dee-a839-4cb8-994a-2c66387a915c\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/6df2b607-9c7c-40fa-a7d2-c53cfd497ad4\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/users\",\"queryParam\":{},\"body\":{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}}","level":"info"}
+{"message":"    {\"url\":\"/boards/6df2b607-9c7c-40fa-a7d2-c53cfd497ad4\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"   status: 404\n      method: GET\n      url: /boards/6df2b607-9c7c-40fa-a7d2-c53cfd497ad4\n      message: Board not found","level":"error"}
+{"message":"    {\"url\":\"/boards\",\"queryParam\":{},\"body\":{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}}","level":"info"}
+{"message":"    {\"url\":\"/users/a13ae4d8-b966-4de8-92c3-454a26721a93\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks\",\"queryParam\":{},\"body\":{\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"630f8da7-009b-4834-ae12-c0ee32a48b40\",\"userId\":null,\"columnId\":null}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks\",\"queryParam\":{},\"body\":{\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"630f8da7-009b-4834-ae12-c0ee32a48b40\",\"userId\":null,\"columnId\":null}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks\",\"queryParam\":{},\"body\":{\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"630f8da7-009b-4834-ae12-c0ee32a48b40\",\"userId\":null,\"columnId\":null}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks\",\"queryParam\":{},\"body\":{\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"630f8da7-009b-4834-ae12-c0ee32a48b40\",\"userId\":null,\"columnId\":null}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks\",\"queryParam\":{},\"body\":{\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"630f8da7-009b-4834-ae12-c0ee32a48b40\",\"userId\":null,\"columnId\":null}}","level":"info"}
+{"message":"    {\"url\":\"/users\",\"queryParam\":{},\"body\":{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/c8a68300-e497-4ecd-94a4-655001794fc6\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/34f76176-2626-443c-9df1-390159bb1246\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/e84291cf-7e6b-4fdc-93ed-e0010887e98f\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/7ba029b9-0988-4a89-b2a8-d5a850ac83aa\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/1303bd24-25fb-4fb7-af78-9d073d365f7f\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards\",\"queryParam\":{},\"body\":{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/2abdc2ac-66b1-494a-8fbf-87b9a22ddd5b/tasks\",\"queryParam\":{},\"body\":{\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"007864ac-acf2-427a-b665-25aee642780a\",\"boardId\":\"2abdc2ac-66b1-494a-8fbf-87b9a22ddd5b\"}}","level":"info"}
+{"message":"    {\"url\":\"/boards/2abdc2ac-66b1-494a-8fbf-87b9a22ddd5b/tasks\",\"queryParam\":{},\"body\":{\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"007864ac-acf2-427a-b665-25aee642780a\",\"boardId\":\"2abdc2ac-66b1-494a-8fbf-87b9a22ddd5b\"}}","level":"info"}
+{"message":"    {\"url\":\"/users/007864ac-acf2-427a-b665-25aee642780a\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/c8a68300-e497-4ecd-94a4-655001794fc6\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/34f76176-2626-443c-9df1-390159bb1246\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/7ba029b9-0988-4a89-b2a8-d5a850ac83aa\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/e84291cf-7e6b-4fdc-93ed-e0010887e98f\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/1303bd24-25fb-4fb7-af78-9d073d365f7f\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"   status: 404\n      method: GET\n      url: /boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/34f76176-2626-443c-9df1-390159bb1246\n      message: Task not found","level":"error"}
+{"message":"   status: 404\n      method: GET\n      url: /boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/c8a68300-e497-4ecd-94a4-655001794fc6\n      message: Task not found","level":"error"}
+{"message":"   status: 404\n      method: GET\n      url: /boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/7ba029b9-0988-4a89-b2a8-d5a850ac83aa\n      message: Task not found","level":"error"}
+{"message":"   status: 404\n      method: GET\n      url: /boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/e84291cf-7e6b-4fdc-93ed-e0010887e98f\n      message: Task not found","level":"error"}
+{"message":"   status: 404\n      method: GET\n      url: /boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/1303bd24-25fb-4fb7-af78-9d073d365f7f\n      message: Task not found","level":"error"}
+{"message":"    {\"url\":\"/boards/8cecb1a6-6e1b-4b82-8667-48b1c107296a\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/2abdc2ac-66b1-494a-8fbf-87b9a22ddd5b/tasks/8302f153-c08c-40d8-8715-b3235893fd85\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/2abdc2ac-66b1-494a-8fbf-87b9a22ddd5b/tasks/ac158297-c25f-426f-856c-1cb37f3656aa\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/2abdc2ac-66b1-494a-8fbf-87b9a22ddd5b/tasks/ac158297-c25f-426f-856c-1cb37f3656aa\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/2abdc2ac-66b1-494a-8fbf-87b9a22ddd5b/tasks/8302f153-c08c-40d8-8715-b3235893fd85\",\"queryParam\":{},\"body\":{}}","level":"info"}
+{"message":"    {\"url\":\"/boards/2abdc2ac-66b1-494a-8fbf-87b9a22ddd5b\",\"queryParam\":{},\"body\":{}}","level":"info"}
