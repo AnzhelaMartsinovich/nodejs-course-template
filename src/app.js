@@ -3,10 +3,13 @@ const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router');
-const taskRouter = require('./resources/tasks/task.router');
 const boardRouter = require('./resources/boards/board.router');
+const taskRouter = require('./resources/tasks/task.router');
+const loginRouter = require('./resources/login/login.router');
 const { INTERNAL_SERVER_ERROR, getStatusText } = require('http-status-codes');
 const logger = require('./loggers/logger');
+
+const authorization = require('./resources/login/authorization');
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
@@ -34,9 +37,10 @@ app.use('/', (req, res, next) => {
 
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
-app.use('/users', userRouter);
+app.use('/users', authorization, userRouter);
+app.use('/boards', authorization, boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
-app.use('/boards', boardRouter);
+app.use('/login', loginRouter);
 
 app.use((err, req, res, next) => {
   if (err) {

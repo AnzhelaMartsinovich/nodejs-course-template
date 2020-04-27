@@ -1,9 +1,8 @@
-class Handler extends Error {
-  constructor(statusCode, message) {
-    super();
-    this.statusCode = statusCode;
-    this.message = message;
-  }
-}
+const logger = require('../loggers/logger');
 
-module.exports = { Handler };
+const handler = (res, status, message) => {
+  res.status(status).json(message);
+  logger.error(message, status);
+};
+
+module.exports = handler;

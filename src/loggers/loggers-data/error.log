@@ -1,7 +1,339 @@
-{"message":"   status: 404\n      method: GET\n      url: /boards/b112c992-6732-499a-bece-d3e5b31f9317/tasks/bc527449-f9cd-445c-9371-9aade45e2869\n      message: Task not found","level":"error"}
-{"message":"   status: 404\n      method: GET\n      url: /boards/6df2b607-9c7c-40fa-a7d2-c53cfd497ad4\n      message: Board not found","level":"error"}
-{"message":"   status: 404\n      method: GET\n      url: /boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/34f76176-2626-443c-9df1-390159bb1246\n      message: Task not found","level":"error"}
-{"message":"   status: 404\n      method: GET\n      url: /boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/c8a68300-e497-4ecd-94a4-655001794fc6\n      message: Task not found","level":"error"}
-{"message":"   status: 404\n      method: GET\n      url: /boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/7ba029b9-0988-4a89-b2a8-d5a850ac83aa\n      message: Task not found","level":"error"}
-{"message":"   status: 404\n      method: GET\n      url: /boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/e84291cf-7e6b-4fdc-93ed-e0010887e98f\n      message: Task not found","level":"error"}
-{"message":"   status: 404\n      method: GET\n      url: /boards/630f8da7-009b-4834-ae12-c0ee32a48b40/tasks/1303bd24-25fb-4fb7-af78-9d073d365f7f\n      message: Task not found","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/4399779a-42bb-4236-abea-bdf87699fa3d/tasks/6ec95480-22a3-4056-bc56-5f3122b6a6b7\n      message: Handler is not a constructor","level":"error"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/7cd5474f-7746-49f9-9a42-8a4fd7a3e728\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/06bc88f1-a98f-4f41-bf43-bc5f4fc62182/tasks/43deca21-4d6f-4096-976b-59bde41ea305\n      message: Handler is not a constructor","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/06bc88f1-a98f-4f41-bf43-bc5f4fc62182/tasks/736e1a6b-929c-40fe-8bde-55425a181598\n      message: Handler is not a constructor","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/06bc88f1-a98f-4f41-bf43-bc5f4fc62182/tasks/489df1d9-fab0-4b16-85df-878457dbd7ba\n      message: Handler is not a constructor","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/06bc88f1-a98f-4f41-bf43-bc5f4fc62182/tasks/1e736829-67ed-4d16-a288-82a702a788ad\n      message: Handler is not a constructor","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/06bc88f1-a98f-4f41-bf43-bc5f4fc62182/tasks/07efa3d5-4fba-49ee-81b0-19917aa7e4d0\n      message: Handler is not a constructor","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/737bf6fd-6c1e-4094-b743-6a286d06f89f/tasks/dacd1230-33c9-42f1-a227-0a423049744b\n      message: Handler is not a constructor","level":"error"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/b557a9a3-1f1f-4ad9-af20-f3f0ff386b9f\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/e349908c-a44b-4aa6-9248-b07221fa71d1/tasks/092aacac-d17c-4e6a-b962-82a9635cbd9c\n      message: Handler is not a constructor","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/e349908c-a44b-4aa6-9248-b07221fa71d1/tasks/0925477d-81cd-409c-a1f1-f003a1c9c19e\n      message: Handler is not a constructor","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/e349908c-a44b-4aa6-9248-b07221fa71d1/tasks/76fe49e8-6353-49e5-8069-3fba304692d9\n      message: Handler is not a constructor","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/e349908c-a44b-4aa6-9248-b07221fa71d1/tasks/e869d96f-283a-4c53-aaf3-3214d93b9f16\n      message: Handler is not a constructor","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/e349908c-a44b-4aa6-9248-b07221fa71d1/tasks/479d3663-269b-4ed9-b0c0-b1e1a20444c5\n      message: Handler is not a constructor","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/3d4a958e-7ff4-485d-a98f-bd1c1d64b661/tasks/bc8021b6-1015-4ddd-8488-75aa33f080a5\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/af27e0ee-1b52-45df-943e-65295d2534a7\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/f25762dd-c437-45b2-b628-e54a8900e71d/tasks/699550bd-9b70-4d84-9ff8-23b1af73aaeb\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/f25762dd-c437-45b2-b628-e54a8900e71d/tasks/ea4ee2a0-c96a-4972-a037-4c929ce91ab1\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/f25762dd-c437-45b2-b628-e54a8900e71d/tasks/17d94bf3-6032-4b9e-9528-de04565f1f81\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/f25762dd-c437-45b2-b628-e54a8900e71d/tasks/42a81a0c-6c6a-4af4-8bec-91323ff22d44\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/f25762dd-c437-45b2-b628-e54a8900e71d/tasks/2059bb6a-0617-47ba-81e8-f8d99b26750f\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/cdfe8588-8f14-44fd-a7e9-391bab24e4d7\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   Unhandled rejection Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/930bda7b-3689-45f8-b8b3-625dbdb6e3cd/tasks/0fddaa70-408d-4ecd-a84c-8bbc8446b9c9\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/d3ef41b4-019a-454f-a6b6-f2191f72d4e1\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/be21ae4c-8a00-4fa6-bfc3-5a800e94e3e9/tasks/17a1c5b1-5464-462e-9953-79fa4b69fae2\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/be21ae4c-8a00-4fa6-bfc3-5a800e94e3e9/tasks/2f21f52d-d717-489f-94a0-2cf1e422b710\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/be21ae4c-8a00-4fa6-bfc3-5a800e94e3e9/tasks/104a3ff1-b730-4ce7-883d-4bbadbdc3d89\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/be21ae4c-8a00-4fa6-bfc3-5a800e94e3e9/tasks/35189e95-f291-4d14-97f5-65f47335a96c\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/be21ae4c-8a00-4fa6-bfc3-5a800e94e3e9/tasks/f33fc2d4-804d-4a3c-996a-41a9c34044a9\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/6623d1f0-db6f-4d64-b854-efd1e55cd20e/tasks/96813272-4d18-415e-ba18-3d88098dcd69\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/2cf8c3b1-1844-48b6-8e21-61cde488b5a6\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/a1c07520-69cb-4b52-a58c-484adf6426c6/tasks/2e1cfb8d-ceab-4654-a74e-5091308f060f\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/a1c07520-69cb-4b52-a58c-484adf6426c6/tasks/c63cfaee-58bd-47fd-b4fc-f0a967bd02d5\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/a1c07520-69cb-4b52-a58c-484adf6426c6/tasks/1c0e7cfb-7a0e-41e9-a709-6fc57533f955\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/a1c07520-69cb-4b52-a58c-484adf6426c6/tasks/aba1eb9f-9ef2-4cc7-933f-8eae894da568\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/a1c07520-69cb-4b52-a58c-484adf6426c6/tasks/1d38ff2e-48c0-42ff-83ba-a963ce0a10dd\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/7985eb14-3490-43eb-82eb-5abad9ae4529/tasks/6117e03b-5705-43e3-b61d-d642677e5528\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/2a0c06d3-7032-4d20-816e-c18f7ecae30a\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/fa6bb631-c630-45be-8e07-a2b0fc85a82b/tasks/163b8f76-a991-4316-9b60-0ee5d7f0647f\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/fa6bb631-c630-45be-8e07-a2b0fc85a82b/tasks/965ad09a-00be-4a60-a486-9bee56258686\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/fa6bb631-c630-45be-8e07-a2b0fc85a82b/tasks/f896a30c-f749-4439-91fa-cc398e03d1cf\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/fa6bb631-c630-45be-8e07-a2b0fc85a82b/tasks/50589b43-7a3c-4715-87dd-64948da40877\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/fa6bb631-c630-45be-8e07-a2b0fc85a82b/tasks/b47346a7-405d-445e-8f26-07da74c2f333\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/34ac5695-afaa-4433-8241-18d476e19ed7/tasks/7132ce2d-538b-4ed2-af26-0bc3d2702400\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/a165c2f2-abc6-40d9-8e2e-37771b53e36f\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/929832ea-6be7-4890-a57b-4be7b8285a92/tasks/3eb484ce-f292-4105-a3d8-8542aa9c32aa\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/929832ea-6be7-4890-a57b-4be7b8285a92/tasks/b42dea5f-a1da-4ee3-905d-d330d00e5f82\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/929832ea-6be7-4890-a57b-4be7b8285a92/tasks/b1615c48-6578-42dd-9e92-a8731a744ce5\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/929832ea-6be7-4890-a57b-4be7b8285a92/tasks/50a6a926-8e7e-405a-aa3e-be163e86b0d2\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/929832ea-6be7-4890-a57b-4be7b8285a92/tasks/f39f8851-65d9-482d-be91-a87f5f1cff55\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/1358c754-86ae-4ea1-aa48-b6f73fc30907/tasks/2324b4b7-fec7-4530-87af-f8d652381dc8\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/127c3fbf-55e9-41c1-8cc4-a50d8a744243\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/732c56c2-f7e7-4b7f-bc31-1375382a1991/tasks/21136ce5-7922-466c-b9b8-eaf480ef0a97\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/732c56c2-f7e7-4b7f-bc31-1375382a1991/tasks/f7efe49e-7bec-40c6-a044-103253905f4a\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/732c56c2-f7e7-4b7f-bc31-1375382a1991/tasks/9e932d3d-1870-472a-9ad6-3c4733bb5c5d\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/732c56c2-f7e7-4b7f-bc31-1375382a1991/tasks/7163476f-299b-47ee-add1-2a1d1ea974c1\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/732c56c2-f7e7-4b7f-bc31-1375382a1991/tasks/e7e62cd1-6823-4219-b01d-475fe44a6048\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/583eff84-c5de-4ae6-9df7-6b1f04a9d5b6/tasks/5718f3a5-90f7-4e3b-b77d-a34fd1b41b66\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/11c39588-5155-4a45-8a2c-d00289a89204\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/515f9644-956d-4392-9793-9e025a019e57/tasks/f4d8a9b6-460f-4c42-96c0-513707fdf69f\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/515f9644-956d-4392-9793-9e025a019e57/tasks/f240cf3f-d82b-43f0-a1a1-7bb8f254ca81\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/515f9644-956d-4392-9793-9e025a019e57/tasks/ea8556e6-295d-4e01-b5f5-5c2e9c6817c4\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/515f9644-956d-4392-9793-9e025a019e57/tasks/f90ae5f6-5443-4430-ae0f-e5c4862ad7ac\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/515f9644-956d-4392-9793-9e025a019e57/tasks/f31f27f2-2c26-4cb6-aa41-065199b34845\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/0cc0369e-91b9-42f2-b6b5-9f547f28f7ea/tasks/521092ba-d1a6-4f06-b56b-1dde84849a38\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/e602e91d-fd54-4578-940b-c4eb6741286f\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/4029913f-33ca-4e35-845c-77c1730f5690/tasks/50bcf104-7d5a-4e54-956f-61b9a22592b3\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/4029913f-33ca-4e35-845c-77c1730f5690/tasks/96f73e84-1aeb-409f-b471-11004077f8b1\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/4029913f-33ca-4e35-845c-77c1730f5690/tasks/c57ab01b-21ab-4981-a5cb-3541cb841904\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/4029913f-33ca-4e35-845c-77c1730f5690/tasks/d4a19a7a-ed58-4e17-83c8-b20f95098fc9\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/4029913f-33ca-4e35-845c-77c1730f5690/tasks/97c6b264-8053-4617-b1fc-a911c69d2268\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/bbd89e47-05cf-4674-80d4-318d24df8c15\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/7d66c4f0-696f-45ee-84ec-5cf0cb542c72/tasks/53dfb7ab-2695-4389-bf7e-e89ce832f078\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/b54b476c-6d53-40b3-bccd-56890b4cad49/tasks/9ab8b31c-cde2-40e4-a2b8-e91faf001a5c\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/b54b476c-6d53-40b3-bccd-56890b4cad49/tasks/b1b8925a-3bde-4810-80a2-b3a704b0fa66\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/b54b476c-6d53-40b3-bccd-56890b4cad49/tasks/36f9c0b6-6ec1-4368-aaa6-7107d3214dd3\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/b54b476c-6d53-40b3-bccd-56890b4cad49/tasks/1ed0694a-8b09-418f-9e50-a895c51565cb\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/b54b476c-6d53-40b3-bccd-56890b4cad49/tasks/4c2f5dd1-5fdd-482e-a645-e87f16d6d64e\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/6cfe5c86-40e5-43d1-9e21-0b3bbecf28d9/tasks/5d9f4ae3-3848-43dc-a9bf-1509e11e077c\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Board not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/576fd019-1146-43eb-8511-18a674386fe9\n      message: Cannot destructure property 'id' of 'board' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/7313e8f3-060f-4ae7-974e-f8fdff78c9b9/tasks/fbcfbdd6-cf8c-4de6-a7eb-93bea8d6e10f\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/7313e8f3-060f-4ae7-974e-f8fdff78c9b9/tasks/fec2823c-39f7-410d-8ff4-a366ba2611f4\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/7313e8f3-060f-4ae7-974e-f8fdff78c9b9/tasks/8d7691fe-75f3-48cc-8c70-7ed089d51774\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/7313e8f3-060f-4ae7-974e-f8fdff78c9b9/tasks/62235014-4e82-4679-92eb-26402ae66076\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   Task not found"}
+{"message":"   status: 500\n      method: GET\n      url: /boards/7313e8f3-060f-4ae7-974e-f8fdff78c9b9/tasks/e7d59291-c4a3-4e80-b9a6-52e2bdae3439\n      message: Cannot destructure property 'id' of 'task' as it is null.","level":"error"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}
+{"level":"error","message":"   user is unauthorized"}

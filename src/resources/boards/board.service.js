@@ -12,10 +12,8 @@ const getById = async id => await getByIdRep(id);
 const create = boardData => createRep(boardData);
 const update = (id, boardData) => updateRep(id, boardData);
 const deleteById = async id => {
-  const result = await deleteRep(id);
   await tasksService.removeByBoard(id);
-
-  return result;
+  return await deleteRep(id);
 };
 
 module.exports = { getAll, getById, create, update, deleteById };

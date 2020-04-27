@@ -7,7 +7,8 @@ const {
   update,
   deleteById
 } = require('./board.service');
-const { Handler } = require('../../helpers/error');
+const handler = require('../../helpers/error');
+const { NOT_FOUND } = require('http-status-codes');
 
 router.route('/').get(async (req, res) => {
   const allBoards = await getAll();
@@ -20,7 +21,7 @@ router.route('/:id').get(async (req, res, next) => {
     const board = await getById(id);
 
     if (!board) {
-      throw new Handler(404, 'Board not found');
+      handler(res, NOT_FOUND, 'Board not found');
     }
     res.status(200).json(Board.toResponse(board));
   } catch (err) {

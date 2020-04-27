@@ -3,7 +3,8 @@ const {
   getByIdRep,
   createRep,
   updateRep,
-  deleteRep
+  deleteRep,
+  getByLoginRep
 } = require('./user.db.repository');
 const tasksService = require('../tasks/task.service');
 
@@ -12,9 +13,17 @@ const getById = async id => await getByIdRep(id);
 const create = userData => createRep(userData);
 const update = (id, userData) => updateRep(id, userData);
 const deleteById = async id => {
-  const result = await deleteRep(id);
   await tasksService.resetUser(id);
-  return result;
+  return await deleteRep(id);
 };
 
-module.exports = { getAll, getById, create, update, deleteById };
+const getUserByLogin = login => getByLoginRep(login);
+
+module.exports = {
+  getAll,
+  getById,
+  create,
+  update,
+  deleteById,
+  getUserByLogin
+};

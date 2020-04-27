@@ -24,4 +24,13 @@ const deleteRep = async id => {
   return (await User.deleteOne({ _id: id })).deletedCount;
 };
 
-module.exports = { getAllRep, getByIdRep, createRep, updateRep, deleteRep };
+const getByLoginRep = login => User.findOne({ login });
+
+module.exports = {
+  getAllRep,
+  getByIdRep,
+  createRep,
+  updateRep,
+  deleteRep,
+  getByLoginRep
+};

@@ -7,7 +7,8 @@ const {
   update,
   deleteById
 } = require('./task.service');
-const { Handler } = require('../../helpers/error');
+const handler = require('../../helpers/error');
+const { NOT_FOUND, BAD_REQUEST } = require('http-status-codes');
 
 router.route('/').get(async (req, res) => {
   const allBoards = await getAll();
@@ -19,7 +20,7 @@ router.route('/:id').get(async (req, res, next) => {
     const task = await getById(req.params);
 
     if (!task) {
-      throw new Handler(404, 'Task not found');
+      handler(res, NOT_FOUND, 'Task not found');
     }
     res.status(200).json(Task.toResponse(task));
   } catch (err) {
@@ -32,7 +33,7 @@ router.route('/').post(async (req, res, next) => {
     const task = await create(req.params.boardId, req.body);
 
     if (!task) {
-      throw new Handler(400, 'Bad request');
+      handler(res, BAD_REQUEST, 'Bad request');
     }
     res.status(200).json(Task.toResponse(task));
   } catch (err) {
