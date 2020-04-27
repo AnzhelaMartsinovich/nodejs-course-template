@@ -1,24 +1,17 @@
 const router = require('express').Router();
 const handler = require('../../helpers/error');
+const { getByLogin } = require('../users/user.service');
+const { FORBIDDEN } = require('http-status-codes');
 const loginService = require('./login.service');
-const { FORBIDDEN, LOCKED } = require('http-status-codes');
-const userService = require('../users/user.service');
 
 router.route('/').post(async (req, res) => {
-  const user = await userService.getUserByLogin(req.body.login);
+  const login = req.body.login;
+  const user = await getByLogin(login);
+
   if (user) {
-    const isValid = await loginService.isPasswordValid(
-      user.password,
-      req.body.password
-    );
-    if (isValid) {
-      const token = loginService.getToken(user._id, user.login);
-      res.header('Authorization', token).send({ token });
-    } else {
-      handler(res, LOCKED, 'incorrect password');
-    }
+    loginService(user, res, req);
   } else {
-    handler(res, FORBIDDEN, 'user not authorized');
+    handler(res, FORBIDDEN, 'access is denied');
   }
 });
 

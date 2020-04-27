@@ -1,9 +1,20 @@
-const { JWT_SECRET_KEY } = require('../../common/config');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
+const handler = require('../../helpers/error');
+const { LOCKED } = require('http-status-codes');
+const { JWT_SECRET_KEY, HEADER_AUTHORIZATION } = require('../../common/config');
 
-const getToken = (id, login) => jwt.sign({ id, login }, JWT_SECRET_KEY);
+const loginService = (user, res, req) => {
+  const validCheck = bcrypt.compare(user.password, req.body.password);
+  if (validCheck) {
+    const userId = user._id;
+    const login = user.login;
 
-const isPasswordValid = (hashed, password) => bcrypt.compare(password, hashed);
+    const token = jwt.sign({ userId, login }, JWT_SECRET_KEY);
+    res.header(HEADER_AUTHORIZATION, token).send({ token });
+  } else {
+    handler(res, LOCKED, 'locked, wrong data');
+  }
+};
 
-module.exports = { getToken, isPasswordValid };
+module.exports = loginService;

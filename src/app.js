@@ -8,8 +8,7 @@ const taskRouter = require('./resources/tasks/task.router');
 const loginRouter = require('./resources/login/login.router');
 const { INTERNAL_SERVER_ERROR, getStatusText } = require('http-status-codes');
 const logger = require('./loggers/logger');
-
-const authorization = require('./resources/login/authorization');
+const authorization = require('./helpers/authorization');
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
@@ -46,10 +45,14 @@ app.use((err, req, res, next) => {
   if (err) {
     const { statusCode, message } = err;
 
-    logger.error(`status: ${statusCode ? statusCode : INTERNAL_SERVER_ERROR}
-      method: ${req.method}
-      url: ${req.url}
-      message: ${message ? message : getStatusText(INTERNAL_SERVER_ERROR)}`);
+    logger.error(
+      `status: ${statusCode ? statusCode : INTERNAL_SERVER_ERROR} method: ${
+      /* eslint-disable */
+      req.method
+      } url: ${req.url} message: ${
+      message ? message : getStatusText(INTERNAL_SERVER_ERROR)
+      }`
+    );
   }
 
   next();

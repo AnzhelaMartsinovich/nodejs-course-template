@@ -20,11 +20,11 @@ const deleteRep = async (boardId, id) => {
   return Task.deleteOne({ boardId, _id: id });
 };
 
-const delUsersRep = async id => {
+const deleteUserRep = async id => {
   return Task.updateMany({ userId: id }, { userId: null });
 };
 
-const removeByBoardRep = async id => {
+const deleteByBoardRep = async id => {
   return Task.deleteMany({ boardId: id });
 };
 
@@ -34,6 +34,6 @@ module.exports = {
   createRep,
   updateRep,
   deleteRep,
-  delUsersRep,
-  removeByBoardRep
+  deleteUserRep,
+  deleteByBoardRep
 };

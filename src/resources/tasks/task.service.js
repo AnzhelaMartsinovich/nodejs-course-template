@@ -4,8 +4,8 @@ const {
   createRep,
   updateRep,
   deleteRep,
-  delUsersRep,
-  removeByBoardRep
+  deleteUserRep,
+  deleteByBoardRep
 } = require('./task.db.repository');
 const Task = require('./task.model');
 
@@ -17,8 +17,8 @@ const create = async (boardId, taskData) => {
 };
 const update = (id, task) => updateRep(id, task);
 const deleteById = async params => await deleteRep(params.boardId, params.id);
-const resetUser = async id => await delUsersRep(id);
-const removeByBoard = async id => await removeByBoardRep(id);
+const deleteUser = async id => await deleteUserRep(id);
+const deleteByBoard = async id => await deleteByBoardRep(id);
 
 module.exports = {
   getAll,
@@ -26,6 +26,6 @@ module.exports = {
   create,
   update,
   deleteById,
-  resetUser,
-  removeByBoard
+  deleteUser,
+  deleteByBoard
 };
